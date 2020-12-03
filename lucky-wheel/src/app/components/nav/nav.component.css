@@ -1,0 +1,26 @@
+#wheelPage {
+    height: 100%;
+    width: 100%;
+  }
+  
+  #wheelPage,
+  #wheelNav {
+    text-align: center;
+  
+  }
+  
+  #wheelNav {
+    height: 109px;
+    width: 100%;
+    background-color: red;
+    color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  #wheelNav,
+  h1 {
+    font-size: 40px;
+  }
+  

@@ -1,0 +1,15 @@
+<div id="wheelPage">
+
+  <h3>Press the wheel to land on a random prize</h3>
+
+
+  <ngx-wheel #wheel width='400' height='400' spinDuration='8' [items]='items' [innerRadius]='20' [spinAmount]='10'
+    [textOrientation]='textOrientation' [textAlignment]='textAlignment' pointerStrokeColor='black'
+    pointerFillColor='gold' [idToLandOn]='idToLandOn' (onSpinComplete)='after()'></ngx-wheel>
+
+    <h3 *ngIf="round>0">Spin number: {{round}}</h3>
+    <h1 *ngIf="win" id="win">You win : {{win}}</h1>
+
+</div>
+
+

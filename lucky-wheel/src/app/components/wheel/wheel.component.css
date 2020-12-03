@@ -1,0 +1,11 @@
+.buttons{
+    margin-top: 20px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#win{
+	font-size: 39px;
+	margin-top: -10px;
+}
